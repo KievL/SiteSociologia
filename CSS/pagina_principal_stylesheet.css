@@ -1,0 +1,166 @@
+body{
+    background-image: url('../Images/background1.jpg');
+    background-color: darkorange;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+/* grid*/
+.grids{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    /*  4 colunas   */
+    grid-template-columns: 150px 150px 150px 150px;
+    /*  4 rows   */
+    grid-template-rows: 150px 50px 50px 150px;
+    justify-content: center;
+}
+
+/* grid do avatar */
+.avatar{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* foto do avatar */
+.avatar img {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+/* texto do nome */
+.textocabecalho{
+    text-align: center;
+    color: darkorange;
+    font-size:50px; 
+    font-family: Arial;
+    padding-top: 50px;
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* grid título do projeto */
+.titulo{
+    background-color: white;
+    margin-top: 3px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end: 3;
+
+
+}
+
+/* texto do título do projeto */
+.titulo h1{
+    color: darkorange;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 25px; 
+
+}
+
+/* background para marcar separações dos grids */
+.titulobackground{
+    background-color: orange; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+
+
+}
+
+/* background para marcar separações dos grids */
+.materiasbackground{
+    background-color: lightgray; 
+    margin-right: 1px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:3 ;
+    grid-row-end: 5;
+}
+
+/* grid de sociogia */
+.materiassociologia{
+    background-color: white;
+    margin-top: 3px;
+    margin-right: 1.5px;
+    font-family: Arial;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end: 4;
+}
+
+/* textos */
+h2{
+    color: darkorange;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 20px; 
+}
+
+/* grid de filosofia */
+.materiasfilosofia{
+    background-color: white;
+    margin-top: 3px;
+    margin-left: 1.5px;
+    font-family: Arial;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start:3 ;
+    grid-row-end: 4;
+}
+
+/* grid do botão de filosofia */
+.buttonfilosofia{
+    margin-top: 3px;
+    margin-left: 1.5px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start:4;
+    grid-row-end: 5;
+}
+
+/* imagem do botão de filosofia */
+.buttonfilosofia img {
+    max-width:298.5px;
+    max-height:148.5px;
+    width: auto;
+    height: auto;
+}
+
+/* grid do botão de sociologia */
+.buttonsociologia{
+    margin-top: 3px;
+    text-align: center;
+    margin-right: 1.5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:4;
+    grid-row-end: 5;
+}
+
+/* imagem do botão de sociologia */
+.buttonsociologia img {
+    max-width:299px;
+    max-height:149px;
+    width: auto;
+    height: auto;
+}
+
+
